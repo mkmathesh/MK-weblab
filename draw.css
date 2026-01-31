@@ -1,0 +1,62 @@
+body{
+    background-color: #BCA988;
+}
+#itemframe
+{
+    height:600px;
+    width:600px;
+    background-color: #87CEEB;
+    border: 15px groove #8B5A2B;
+    position: relative;
+    top:60px;
+    left:400px;
+}
+#sun{
+    width:50px;
+    height:50px;
+    background-color: #FFF59D;
+    position: absolute;
+    left:450px;
+    top:40px;
+} 
+#leave1{
+    height:50px;
+    width:100px;
+    background-color:#5DA84E;
+    position: absolute;
+    top:236px;
+    
+    left:228px;
+}
+#leave2{
+    height:60px;
+    width:200px;
+    background-color:#5DA84E;
+    position: absolute;
+    top:286px;
+    left:180px;
+}
+#wood{
+    height:150px;
+    width:50px;
+    background-color:#8B5A2B;
+    position: absolute;
+    left:250px;
+    top:346px;
+}
+#grassblocktop{
+    height:20px;
+    width:600px;
+    background-color:#91BD59;
+    position: absolute;
+    border-bottom: 4px solid #8CA34B;
+    top:496px;
+}
+#grassblockbottom
+{
+    height:80px;
+    width:600px;
+    background-color: #836953;
+    position: absolute;
+    top:520px;
+}

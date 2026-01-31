@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+           fieldset{
+            width:800px;
+            height:650px;
+            margin-left:325px;
+             border:2px dotted black;
+             display: flex;
+             background:white;
+        }
+        #rightbox{
+            border-left:15px dotted white;
+            border-bottom-right-radius:10px;
+            border-top-right-radius:10px;
+            margin:10px;
+             width:400px;
+            height:600px;
+            background-color: rgb(247, 250, 183);
+            display:flex;
+            flex-direction: column;
+        }
+        #leftbox{
+           border-right:15px dotted white;
+            border-bottom-left-radius:10px;
+            border-top-left-radius:10px;
+            margin:10px;
+             width:400px;
+           height:600px;
+            background-color: rgb(183, 219, 250);
+            display:flex;
+            flex-direction: column;
+        }
+     
+        label{
+            font-size: larger;
+            font-weight: bolder;
+            margin:20px;
+            margin-bottom:0px;
+        }
+        .in{
+             margin:20px;
+            margin-bottom:0px;
+            height:20px;
+            width:200px;
+        }
+        button{
+            width:200px;
+            font-weight: bold;
+            letter-spacing:2px;
+            height:30px;
+            border-radius:2px;
+            border-left:5px rgb(247, 250, 183) dotted;
+            border-right:5px rgb(247, 250, 183) dotted;
+            border-bottom-right-radius:20px;
+            border-bottom-left-radius:10px;
+            text-align: center;
+            background-color:#f0f0f0;
+            opacity:0.5;
+            margin-left:180px;
+            transform: rotate(-35deg);
+            position:absolute;
+            left:850px;
+            top:640px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;letter-spacing:10px;">STUDENT REGISTER</h1>
+    <fieldset>
+        <legend style="font-weight: bold; font-size: larger;">Register</legend>
+        <div id="leftbox" >
+            <label for="name">Name :</label>
+            <input type="text" id="name" class="in" placeholder="enter the name" pattern="[A-Za-z]+" title="only alphabets" autofocus>
+            <label for="dob">DOB :</label>
+            <input type="date" id="dob" class="in">
+            <label for="">Gender :</label>
+            <label for=""><input type="radio" name="gender" class="in1" >Male <label for=""><input type="radio" name="gender" class="in1">Female</label></label>
+            <label for="">BloodGroup :</label>
+            <input type="text" class="in" pattern="(A|B|AB|O){1,2} (+|-){1}" title="BLOOD" required> 
+            <label for="">Address :</label>
+            <textarea name="" id="" class="in" style="height:50px;"></textarea>
+            <LAbel for="url">URL :</LAbel>
+            <input class="in" type="url"  id="url">
+
+        </div>
+        <div id="rightbox">
+            <label for="">Program :</label>
+            <label for="">
+            <input type="checkbox">Java
+            <input type="checkbox">Python
+            <input type="checkbox">C
+            <input type="checkbox">JS
+        </label>
+        <label for="">Language :</label>
+        <label for="">
+            <input type="checkbox" name="" id="">Tamil
+            <input type="checkbox" name="" id="">English
+        </label>
+        <label for="">Fav Color :</label>
+        <label for=""><input type="color" name="" id=""></label>
+        <label for="">Phone No :</label>
+        <input type="tel" class="in" pattern="[0-9]{10}" title="only number">
+        <label for="">Gmail :</label>
+        <input type="email" class="in" required aut ocomplete="on">
+        <label for="">Department</label>
+        <select class="in" name="" id="">
+            <option value="">IT</option>
+            <option value="">CSE</option>
+            <option value="">ADIS</option>
+            <option value="">ECE</option>
+            <option value="">Mech</option>
+        </select>
+        <br>
+        <button>Submit</button>
+        </div>
+    </fieldset>
+</body>
+</html>
