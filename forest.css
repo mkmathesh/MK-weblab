@@ -1,0 +1,101 @@
+*{
+    margin: 1px;
+    padding: 0px;
+}
+    #main{
+        width:100%;
+        height:700px;
+        border:2px solid black;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        background-color: rgb(137, 236, 253);
+        background-image: url("/img/sky.png");
+        background-size: cover;
+        }
+    #items{
+        box-sizing: border-box;
+        width:10%;
+        height:100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+         padding:2px;
+    }
+    .item{
+        width:50%;
+        height:10%;
+        background-color: aqua;
+        box-sizing: border-box;
+        background-size: cover;
+        margin: 0px;
+    }
+    .item:hover{
+        border: 1px solid rgb(0, 0, 0);
+        opacity: 0.8;
+    }
+    .item:active{
+        border: 2px solid rgb(255, 255, 255);
+        opacity: 1;
+    }
+    #hill{
+        background: url("/img/hill.png");
+         background-size: cover;
+    }
+    #rock{
+        background: url("/img/rock.png");
+        background-size: cover;
+    }
+    #stone{
+        background: url("/img/stone.png");
+        background-size: cover;
+    }
+    #tree{
+        background: url("/img/tree.png");
+        background-size: cover;
+    }
+    #grass{
+        background: url("/img/grass.png");
+        background-size: cover;
+    }
+    #bear{
+        background: url("/img/bear.png");
+        background-size: cover;
+    }
+     #cloud{
+        background: url("/img/cloud.png");
+        background-size: cover;
+    }
+     #eagle{
+        background: url("/img/eagle.png");
+        background-size: cover;
+    }
+     #sun{
+        background: url("/img/sun.png");
+        background-size: cover;
+    }
+    #tree2{
+        background: url("/img/tree2.png");
+        background-size: cover;
+    }
+    #continer{
+        width:90%;
+        height:100%;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-left: 1px solid black;
+    }
+    #foresttitle{
+        text-align: center;
+        opacity:0.5;
+        color: rgb(185, 185, 185);
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    #rang{
+        float: right;
+        width:300px;
+    }
