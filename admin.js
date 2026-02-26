@@ -1,19 +1,7 @@
-const collegeobj=require("./college.json");
+const fs = require("fs");
 
-function Add()
-{
-
-}
-function Delete()
-{
-
-}
-function Update()
-{
-
-}
-function Display()
-{
-    
-}
-
+const college = fs.readFileSync('college.json', 'utf-8');
+const data = JSON.parse(college);
+console.log(data.IT.student)
+data.IT.student.age=33;
+fs.writeFile('college.json', JSON.stringify(data, null, 2));

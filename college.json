@@ -1,53 +1,50 @@
 {
-    "IT":
-    {
-        "student":[
-            {
-                
-            "fname":"mathesh",
-            "lname":"m",
-            "age":22,
-            "gender":"male",
-            "dob":"19/12/2003",
-            "roll-no":"23bit054",
-            "mark":[88,88,78,90,76,98],
-            "gpa":9.8,
-            "address":{
-                "door_no":"745/3",
-                "street_name":"meela colony",
-                "city":"kovil patti",
-                "district":"thoothukudi"
-            },
-            "mobile_no":"7604835362",
-            "gmail_id":"mkmathesh302@gmail.com"
-            }
+  "IT": {
+    "student": [
+      {
+        "fname": "mathesh",
+        "lname": "m",
+        "age": 33,
+        "gender": "male",
+        "dob": "19/12/2003",
+        "roll-no": "23bit054",
+        "mark": [
+          88,
+          88,
+          78,
+          90,
+          76,
+          98
         ],
-        "staff":[
-            {
-            "fname":"kumar",
-            "lname":"raj",
-            "age":45,
-            "gender":"male",
-            "dob":"19/12/1980",
-            "course":"C",
-            "roll":"professor"
-            }
-      ]
-    },
-    "ECE":{
-        "student":{
-
+        "gpa": 9.8,
+        "address": {
+          "door_no": "745/3",
+          "street_name": "meela colony",
+          "city": "kovil patti",
+          "district": "thoothukudi"
         },
-        "staff":{
-
-        }
-    },
-    "MECH":{
-        "student":{
-
-        },
-        "staff":{
-            
-        }
-    }
+        "mobile_no": "7604835362",
+        "gmail_id": "mkmathesh302@gmail.com"
+      }
+    ],
+    "staff": [
+      {
+        "fname": "kumar",
+        "lname": "raj",
+        "age": 45,
+        "gender": "male",
+        "dob": "19/12/1980",
+        "course": "C",
+        "roll": "professor"
+      }
+    ]
+  },
+  "ECE": {
+    "student": {},
+    "staff": {}
+  },
+  "MECH": {
+    "student": {},
+    "staff": {}
+  }
 }
